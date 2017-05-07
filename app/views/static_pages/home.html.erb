@@ -1,2 +1,94 @@
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li>
+        <a href="#">One</a>
+        <ul class="menu vertical">
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
+
 <h1>StaticPages#home</h1>
 <p>Find me in app/views/static_pages/home.html.erb</p>
+
+<div class="callout primary">
+  <h5>This is a primary callout.</h5>
+  <p>It has an easy to override visual style, and is appropriately subdued.</p>
+  <a href="#0">It's dangerous to go alone, take this.</a>
+</div>
+
+<div class="switch tiny">
+  <input class="switch-input" id="tinySwitch" type="checkbox" name="exampleSwitch">
+  <label class="switch-paddle" for="tinySwitch">
+    <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+  </label>
+</div>
+
+<div class="switch small">
+  <input class="switch-input" id="smallSwitch" type="checkbox" name="exampleSwitch">
+  <label class="switch-paddle" for="smallSwitch">
+    <span class="show-for-sr">Small Portions Only</span>
+  </label>
+</div>
+
+<div class="switch large">
+  <input class="switch-input" id="largeSwitch" type="checkbox" name="exampleSwitch">
+  <label class="switch-paddle" for="largeSwitch">
+    <span class="show-for-sr">Show Large Elephants</span>
+  </label>
+</div>
+
+
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="example-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li class="has-submenu">
+        <a href="#0">One</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#0">One</a></li>
+          <li><a href="#0">Two</a></li>
+          <li><a href="#0">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#0">Two</a></li>
+      <li><a href="#0">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
+
+<p><a data-open="exampleModal1">Click me for a modal</a></p>
+
+<div class="reveal" id="exampleModal1" data-reveal>
+  <h1>Awesome. I Have It.</h1>
+  <p class="lead">Your couch. It is mine.</p>
+  <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+  <button class="close-button" data-close aria-label="Close reveal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
